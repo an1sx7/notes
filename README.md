@@ -9,29 +9,33 @@ this tool allows to you create notes and see them in terminal or in web interfac
 
 ## Requirements
 - ruby
-- sqlite3 gem
-- sinatra gem
 
 ## Installation
 ```bash
 git clone https://github.com/an1sx7/notes
 cd notes
+bundle install
 chmod +x main.rb
+```
 
 ## Usage
 
 ### New Note
 ```bash
 ./main.rb new-note <title> <text>
+```
 
 ### Show Notes
 ```bash
 ./main.rb notes-list
+```
 
 ### Web Interface
 ```bash
 ./main.rb run-server
+```
 
 ### Usage Example
 ```bash
 ./main.rb new-note "my note" "my first note"
+```
